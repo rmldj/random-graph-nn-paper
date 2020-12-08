@@ -2,9 +2,8 @@
 
 Code and data for the paper:
 
-### Romuald A. Janik, Aleksandra Nowak, *Neural Networks on Random Graphs*, [arXiv:2002.08104](https://arxiv.org/abs/2002.08104)
-*We performed a massive evaluation of neural networks with architectures corresponding to random graphs of various types. Apart from the classical random graph families including random, scale-free and small world graphs, we introduced a novel and flexible algorithm for directly generating random directed acyclic graphs (DAG) and studied a class of graphs derived from functional resting state fMRI networks. A majority of the best performing networks were indeed in these new families. We also proposed a general procedure for turning a graph into a DAG necessary for a feed-forward neural network. We investigated various structural and numerical properties of the graphs in relation to neural network test accuracy. Since none of the classical numerical graph invariants by itself seems to allow to single out the best networks, we introduced new numerical characteristics that selected a set of quasi-1-dimensional graphs, which were the majority among the best performing networks.*
-
+### Romuald A. Janik, Aleksandra Nowak, *Analyzing Neural Networks Based on Random Graphs*, [arXiv:2002.08104](https://arxiv.org/abs/2002.08104)
+*We perform a massive evaluation of neural networks with architectures corresponding to random graphs of various types. We investigate various structural and numerical properties of the graphs in relation to neural network test accuracy. We find that none of the classical numerical graph invariants by itself allows to single out the best networks. Consequently, we introduce a new numerical graph characteristic that selects a set of quasi-1-dimensional graphs, which are a majority among the best performing networks. We also find that networks with primarily short-range connections perform better than networks which allow for many long-range connections. Moreover, many resolution reducing pathways are beneficial. We provide a dataset of 1020 graphs and the test accuracies of their corresponding neural networks [at this https URL.](https://github.com/rmldj/random-graph-nn-paper)*
 # Repository Structure.
 
 The repository consists of the following folders:
